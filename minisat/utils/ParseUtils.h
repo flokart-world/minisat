@@ -30,6 +30,8 @@ OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWA
 
 namespace Minisat {
 
+#if 0
+
 //-------------------------------------------------------------------------------------------------
 // A simple buffered character stream class:
 
@@ -67,6 +69,8 @@ public:
 
 static inline bool isEof(StreamBuffer& in) { return *in == EOF;  }
 static inline bool isEof(const char*   in) { return *in == '\0'; }
+
+#endif
 
 //-------------------------------------------------------------------------------------------------
 // Generic parse functions parametrized over the input-stream type.
